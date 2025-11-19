@@ -1,0 +1,4 @@
+[Seat Type],0
+Toplevel,300
+Midlevel,500
+Courtside,1000

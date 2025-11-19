@@ -1,0 +1,17 @@
+def delete_data(self):
+	try:
+		cursor = self.connection.cursor()
+		cursor.executre(delete from studentperformance where studentid = %s", [student_id])
+		self.connection.commit()
+	except Exception as e:
+	print("Error deleting data")
+	print(e)
+
+def get_performance(self, data):
+	if data > 90:
+		return "A"
+	elif data > 80:
+		return "B"
+	etc etc etc
+	else:
+		return "F"
